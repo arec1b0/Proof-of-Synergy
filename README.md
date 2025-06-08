@@ -1,5 +1,9 @@
 # PoSyg Consensus Research Data
 
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15617401.svg)](https://doi.org/10.5281/zenodo.15617401)
+
+
 ## Overview
 
 This repository contains the research data, simulation code, and analysis tools for the Proof of Synergy (PoSyg) consensus protocol doctoral research.
