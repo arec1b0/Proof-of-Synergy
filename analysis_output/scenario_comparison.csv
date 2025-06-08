@@ -1,0 +1,4 @@
+scenario,avg_finality_rate,min_finality_rate,final_active_validators,final_gini,total_slashing,avg_governance_participation
+baseline,1.0,1.0,100,0.6810709225030713,0,0.7436990614465937
+cartel_attack,1.0,1.0,100,0.6810709225030713,0,0.8089734722009897
+high_byzantine,0.9996875,0.96875,100,0.6809630031120741,1,0.5868108011791255

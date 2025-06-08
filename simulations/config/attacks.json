@@ -1,0 +1,67 @@
+{
+  "cartel_attack": {
+    "description": "Coordinated cartel controlling 30% of stake",
+    "config": {
+      "num_validators": 100,
+      "initial_stake_distribution": "pareto",
+      "block_time": 6.0,
+      "epoch_length": 32,
+      "finality_threshold": 0.67,
+      "stake_weight": 0.4,
+      "activity_weight": 0.4,
+      "governance_weight": 0.2,
+      "base_reward": 10.0,
+      "slashing_rate": 0.01,
+      "max_inflation": 0.05,
+      "byzantine_ratio": 0.05,
+      "cartel_size": 0.3,
+      "sybil_nodes": 0,
+      "simulation_epochs": 1000,
+      "random_seed": 42
+    }
+  },
+  
+  "high_byzantine": {
+    "description": "Near-threshold Byzantine validators (33%)",
+    "config": {
+      "num_validators": 100,
+      "initial_stake_distribution": "pareto",
+      "block_time": 6.0,
+      "epoch_length": 32,
+      "finality_threshold": 0.67,
+      "stake_weight": 0.4,
+      "activity_weight": 0.4,
+      "governance_weight": 0.2,
+      "base_reward": 10.0,
+      "slashing_rate": 0.01,
+      "max_inflation": 0.05,
+      "byzantine_ratio": 0.33,
+      "cartel_size": 0.0,
+      "sybil_nodes": 0,
+      "simulation_epochs": 1000,
+      "random_seed": 42
+    }
+  },
+  
+  "sybil_attack": {
+    "description": "Sybil attack with 1000 fake identities",
+    "config": {
+      "num_validators": 100,
+      "initial_stake_distribution": "pareto",
+      "block_time": 6.0,
+      "epoch_length": 32,
+      "finality_threshold": 0.67,
+      "stake_weight": 0.4,
+      "activity_weight": 0.4,
+      "governance_weight": 0.2,
+      "base_reward": 10.0,
+      "slashing_rate": 0.01,
+      "max_inflation": 0.05,
+      "byzantine_ratio": 0.1,
+      "cartel_size": 0.0,
+      "sybil_nodes": 1000,
+      "simulation_epochs": 1000,
+      "random_seed": 42
+    }
+  }
+}

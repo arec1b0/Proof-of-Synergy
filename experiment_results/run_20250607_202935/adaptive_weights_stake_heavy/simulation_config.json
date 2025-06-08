@@ -1,0 +1,10 @@
+{
+  "num_validators": 100,
+  "simulation_epochs": 500,
+  "stake_weight": 0.7,
+  "activity_weight": 0.2,
+  "governance_weight": 0.1,
+  "byzantine_ratio": 0.1,
+  "cartel_size": 0.15,
+  "finality_threshold": 0.67
+}

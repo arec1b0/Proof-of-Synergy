@@ -1,0 +1,68 @@
+{
+  "description": "Test different synergy score weight configurations",
+  "variants": [
+    {
+      "name": "stake_heavy",
+      "config": {
+        "num_validators": 100,
+        "initial_stake_distribution": "pareto",
+        "block_time": 6.0,
+        "epoch_length": 32,
+        "finality_threshold": 0.67,
+        "stake_weight": 0.7,
+        "activity_weight": 0.2,
+        "governance_weight": 0.1,
+        "base_reward": 10.0,
+        "slashing_rate": 0.01,
+        "max_inflation": 0.05,
+        "byzantine_ratio": 0.1,
+        "cartel_size": 0.15,
+        "sybil_nodes": 0,
+        "simulation_epochs": 500,
+        "random_seed": 42
+      }
+    },
+    {
+      "name": "activity_heavy",
+      "config": {
+        "num_validators": 100,
+        "initial_stake_distribution": "pareto",
+        "block_time": 6.0,
+        "epoch_length": 32,
+        "finality_threshold": 0.67,
+        "stake_weight": 0.2,
+        "activity_weight": 0.6,
+        "governance_weight": 0.2,
+        "base_reward": 10.0,
+        "slashing_rate": 0.01,
+        "max_inflation": 0.05,
+        "byzantine_ratio": 0.1,
+        "cartel_size": 0.15,
+        "sybil_nodes": 0,
+        "simulation_epochs": 500,
+        "random_seed": 42
+      }
+    },
+    {
+      "name": "governance_heavy",
+      "config": {
+        "num_validators": 100,
+        "initial_stake_distribution": "pareto",
+        "block_time": 6.0,
+        "epoch_length": 32,
+        "finality_threshold": 0.67,
+        "stake_weight": 0.3,
+        "activity_weight": 0.3,
+        "governance_weight": 0.4,
+        "base_reward": 10.0,
+        "slashing_rate": 0.01,
+        "max_inflation": 0.05,
+        "byzantine_ratio": 0.1,
+        "cartel_size": 0.15,
+        "sybil_nodes": 0,
+        "simulation_epochs": 500,
+        "random_seed": 42
+      }
+    }
+  ]
+}

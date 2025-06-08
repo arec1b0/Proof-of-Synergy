@@ -1,0 +1,4 @@
+experiment,status,duration,epochs_completed,final_active_validators,avg_finality_rate,std_finality_rate,final_gini,max_gini,total_slashing,avg_governance_participation,final_byzantine_control,final_cartel_control
+economic_scenarios_high_slashing,success,15.052788972854614,500,100,1.0,0.0,0.6810709225030713,0.6810709225030713,0,0.6368226207980003,0.19406280285452326,0.0
+economic_scenarios_low_rewards,success,14.132286310195923,500,100,1.0,0.0,0.6810709225030713,0.6810709225030713,0,0.6662448760654883,0.17521276467220193,0.0
+economic_scenarios_high_inflation,success,14.287435293197632,500,100,1.0,0.0,0.6810709225030713,0.6810709225030713,0,0.6913563678314845,0.10028430750407424,0.0
